@@ -1,8 +1,6 @@
 name: Java CI with Maven
 
-on: 
-   push: branches: [ main, fast ] 
-   pull_reguests: [ main, fast ]
+on: [push, pull_request]
 
 jobs:
   build:
